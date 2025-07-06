@@ -19,7 +19,7 @@ function Body() {
       <Home/>
       <About/>
       <Skills/>
-      {/* <Project/> */}
+      <Project/>
       {/* <Resumee/> */}
       {/* <Contact/> */}
     </>
