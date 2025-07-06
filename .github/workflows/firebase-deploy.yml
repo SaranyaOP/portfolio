@@ -27,6 +27,6 @@ jobs:
       - name: Deploy to Firebase Hosting
         uses: w9jds/firebase-action@v13.1.0
         with:
-          args: deploy --only hosting
+          args: deploy --only hosting --project saranya98-portfolio
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN_SARANYAOPPORTFOLIO }}
