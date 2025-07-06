@@ -1,0 +1,143 @@
+.myresume{
+    /* padding-top: 65px; */
+   padding: 0px;
+   height:100vh;
+   width:100%;
+   margin: 0px;
+   display: flex;
+   flex-wrap: wrap;
+}
+.r-left{
+    width: 25%;
+    height: 100vh;
+}
+.r-right{
+    width: 75%;
+    height: 100vh;
+    /* background-color: blue; */
+    padding: 10px;
+    /* padding-left: 20px; */
+}
+.r-title{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    color: black ;
+    /* margin-left: 20px; */
+}
+.resume_section{
+    padding-top: 30px;
+    width:80%;
+    margin: auto;
+    text-align: center;
+}
+.resume_button{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    transition:all 0.2s ease;
+    cursor:pointer;
+}
+.resume_button:hover{
+   background-color:#0EB5F3 ;
+   color: white;
+   transform: scale(1.1);
+   font-size: 16px;
+}
+.resume_ul{
+    padding-top: 20px;
+    width:90%;
+    margin: auto;
+    text-align: center;
+}
+.resume_ul li{
+   display: block; 
+   text-decoration: none;
+}
+.resume_body{
+    margin-top: 100px;
+}
+/* /////////////started here */
+.vertical-tabs{
+    font-size:15px;
+    padding:50px;
+    color:#000;
+    height:80vh;
+    width:100%;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+ .vertical-tabs .nav-tabs .nav-link{
+    border-radius: 0;
+    background:black;
+    text-align:center;
+    font-size: 16px;
+    padding: 10px;
+    border:none;
+    color:#fff !important;
+    /* height:40px; */
+    width: 240px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 18px;
+    margin-bottom: 30px;
+    transition:all 0.2s ease;
+    cursor:pointer;
+}
+.nav-link.download{
+    background:red !important;
+  
+}
+.vertical-tabs .nav-tabs .nav-link:hover{
+    background-color:#0EB5F3 ;
+    color: white;
+    transform: scale(1.1);
+    
+}
+ .vertical-tabs .nav-tabs .nav-link.active{
+    background-color:#0EB5F3!important;
+    color:#fff;
+}
+ .vertical-tabs .tab-content>.active{
+    background:#fff;
+    display:block;
+}
+ .vertical-tabs .nav.nav-tabs{
+    /* margin-top: 10px; */
+    border-bottom:0;
+    /* border-right:3px solid rgb(20, 1, 1); */
+    display:block;
+    float:left;
+    margin-right:20px;
+    padding:15px;
+}
+ .vertical-tabs .sv-tab-panel{
+        border-left:2px solid rgb(214, 236, 16); 
+    background:#fff;
+    /* height:274px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    margin-top: 10px;
+    height: 87vh;
+}
+
+@media only screen and (max-width: 420px){
+  .titulo{font-size: 22px}
+}
+@media only screen and (max-width: 325px){
+  .vertical-tabs{ padding:8px;}
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color:#fff;
+    font-size: 9px;
+}

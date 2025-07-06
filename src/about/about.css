@@ -1,0 +1,156 @@
+
+.myabout{
+    /* padding-top: 65px; */
+    padding: 0px;
+    min-height:100vh;
+    width:100%;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    width:50%;
+    height: 100vh;
+}
+.right{
+    width:50%;
+    padding: 10px;
+    /* background-image: url("../images/1810.jpg");
+    background-size: cover;
+    background-position: center; */
+}
+.myimage{
+   
+   width:70%;
+   margin:auto;
+}
+
+.a-img{
+    height:100%;
+    width:100%;
+    margin-top: 100px;
+    transition:all 0.2s ease;
+}
+.a-img:hover{
+    transform: scale(1.1);
+}
+.a-tittle{
+    margin-top: 11vh;
+    font-weight: bold;
+    font-size: 2.5vw;
+    text-align: center;
+    color: black ;
+}
+.a-tittle:hover{
+    color:#0EB5F3 ;
+}
+.a-content{
+    padding-top: 20px;
+    width:70%;
+    margin: auto;
+   
+}
+
+  .resume-btn{
+    background-color: #F4D03F;
+    border: none;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .resume-btn:hover{
+    background-color: black;
+    color: white;
+  }
+
+  .myabout p{
+    font-size:1vw;
+}
+  /* ////////////////// ----------Animation----------///////////////// */
+  
+  .animateMe{
+    opacity: 0;
+  }
+   
+  .animateMe .animated{
+      opacity: 1;
+  }
+
+
+  /* /////////////for small  devices ////////// */
+@media screen and (max-width:480px){
+    .myabout{
+        height: auto;
+    }
+    .left{
+        display: none;
+    }
+    .right{
+        width:100%;
+        height: auto;
+    }
+    .a-tittle{
+        margin-top: 50px;
+        font-weight: bold;
+        font-size:30px;
+        text-align: center;
+        color: black ;
+    }
+    .a-content{
+        padding-top: 20px;
+        width:80%;
+       
+    }
+    .buttondiv{
+        text-align: center;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .myproject{
+        width: 90%;
+        margin: auto;
+        height: auto;
+       
+    }
+    .myabout p{
+        font-size: 16px;
+    }
+}
+   /* /////////////for medium devices ///////// */
+    
+    @media screen and (max-width:1007px){
+    .myabout{
+        height: auto;
+        display: flex;
+    }
+    .left{
+      display: none;
+    }
+    .right{
+        width:100%;
+       min-height: 100vh;
+    }
+    .a-tittle{
+        margin-top: 50px;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        color: black ;
+    }
+    .myabout p{
+        font-size: 16px !important;
+    }
+    .a-content{
+        padding-top: 20px;
+        width:80%;
+       
+    }
+  
+    .buttondiv{
+        text-align: center;
+    }
+    
+    }
+    

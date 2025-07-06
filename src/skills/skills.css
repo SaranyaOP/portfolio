@@ -1,0 +1,122 @@
+.myskills{
+    padding: 0px;
+    height:100vh;
+    width:100%;
+    margin:auto;
+    /* background-color: #FAF608 ; */
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.s-tittle{
+    padding-top: 11vh;
+    font-weight: bold;
+    font-size: 2.5vw;
+    text-align: center;
+    color:black;
+}
+.s-tittle:hover{
+    color:#0EB5F3 ;
+}
+.skillsitem{
+    width:80%;
+    margin: auto;
+}
+.s-left{
+    width:70%;
+    height: 100vh;
+}
+.s-right{
+    width:30%;
+    padding: 10px;
+    /* background-image: url("../images/1810.jpg");
+    background-size: cover;
+    background-position: center; */
+}
+
+.skill-container{
+    width:80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.tech-stack {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tech-item {
+    text-align: center;
+    margin: 3%;
+    position: relative;
+    transition: transform 0.2s;
+    width:25%;
+}
+
+.tech-item img {
+    width: 40%;
+    height: 40%;
+    transition: transform 0.2s;
+}
+
+.tech-item:hover img {
+    transform: scale(1.1);
+}
+
+.tech-item span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+
+ /* ////////////////// ----------Animation----------///////////////// */
+  
+ .animateMe{
+    opacity: 0;
+  }
+   
+  .animateMe .animated{
+      opacity: 1;
+  }
+
+  /* /////////////for small  devices ////////// */
+  @media screen and (max-width:480px){
+    .myskills{
+        height: auto;
+    }
+    
+    .skill-container{
+        width:100%;
+        height: auto;
+    }
+    .s-tittle{
+        margin-top: 50px;
+        font-weight: bold;
+        font-size:30px;
+        text-align: center;
+        color: black ;
+    }
+    
+    
+}
+   /* /////////////for medium devices ///////// */
+    
+    @media screen and (max-width:1007px){
+        .myskills{
+            height: auto;
+        }
+        
+        .skill-container{
+            width:100%;
+            height: auto;
+        }
+        .s-tittle{
+            margin-top: 50px;
+            font-weight: bold;
+            font-size:30px;
+            text-align: center;
+            color: black ;
+        }
+    }

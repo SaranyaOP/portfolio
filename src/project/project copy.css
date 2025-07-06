@@ -1,0 +1,192 @@
+.myproject{
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    background-color:#F4D03F ;
+   
+}
+.p-tittle{
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    color: black ;
+}
+.p-tittle:hover{
+    color:#0EB5F3 ;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+}
+.p-card{
+    width: 37%;
+    height: 38vh;
+    /* background-color: rgb(11, 1, 1); */
+    margin: 1%;
+}
+.mybox{
+    width: 100%;
+    height: 38vh;
+    text-align:center;
+    position:relative; 
+    /* border: 1px solid rgb(186, 183, 183); */
+}
+.p-img{
+    width: 100%;
+    height: 38vh;
+}
+.mybox:hover .p-img{
+    opacity: 0.5;
+}
+.info{
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    opacity:0;
+    background:rgba(0,0,0,.65);
+    position:absolute;
+    transition:all 0.5s ease;
+    width: 20%;
+}
+.mybox:hover .info{
+    top:5px;
+    left:5px;
+    bottom:5px;
+    right:5px;
+    opacity:1;
+    text-align: left;
+    width: 98%;
+   
+    transform: scale(1,1);
+}
+.p-content{
+    color: #fff;
+  
+    margin-top: 90px;
+    position:absolute;
+    margin-left: 30px;
+}
+.sub-title{
+    color: #fff;
+    margin-top: 70px;
+    margin-left: 30px;
+    position:absolute;
+}
+.mybox .title{
+    font-weight:300;
+    color:#fff;
+    /* line-height:17px; */
+    /* padding-left: 20px; */
+    margin-left:30px;
+    margin-right: 30px;
+    position:absolute;
+   margin-top: 30px;
+  
+}
+.p-button{
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 3px;
+    padding: 8px;
+    margin-top: 200px;
+    position:absolute;
+    margin-left: 30px;
+    /* text-decoration: none; */
+   
+   
+   
+}
+.p-button:hover{
+    background-color: #F4D03F;
+   
+}
+.p-link:hover{
+    text-decoration: none;
+    color: black;
+}
+.fa {
+    margin: 5px;
+}
+@media screen and (max-width:480px){
+    .p-tittle{
+        margin-top: 50px;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        color: black ;
+    }
+    .p-tittle:hover{
+        color:#0EB5F3 ;
+    }
+    .p-card{
+        width: 100%;
+        height: 25vh;
+        /* background-color: rgb(11, 1, 1); */
+        margin: 3%;
+    }
+    .mybox{
+        width: 100%;
+        height: 25vh;
+        text-align:center;
+        position:relative; 
+        /* border: 1px solid rgb(186, 183, 183); */
+    }
+    .p-img{
+        width: 100%;
+        height: 25vh;
+    }
+    .p-content{
+        display: none;
+    }
+    .sub-title{
+     display: none;
+    }
+    .mybox .title{
+        font-weight:300;
+        color:#fff;
+        /* line-height:17px; */
+        /* padding-left: 20px; */
+        margin-left:30px;
+        margin-right: 30px;
+        position:absolute;
+       margin-top: 30px;
+       font-size: 19px;
+      
+    }
+    .p-button{
+        background-color: white;
+        border: none;
+        color: black;
+        border-radius: 3px;
+        padding: 8px;
+        margin-top: 80px;
+        position:absolute;
+        margin-left: 30px;
+        /* text-decoration: none; */
+       
+       
+       
+    }
+    .p-button:hover{
+        background-color: #F4D03F;
+       
+    }
+    .p-link:hover{
+        text-decoration: none;
+        color: black;
+    }
+    .fa {
+        margin: 5px;
+    }
+}
+.p-link{
+    text-decoration: none;
+    color: black;
+}

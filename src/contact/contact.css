@@ -1,0 +1,315 @@
+.mycontact{
+    /* padding-top: 65px; */
+   padding: 0px;
+    height:100vh;
+   width:100%;
+   margin: 0px;
+   display: flex;
+   flex-wrap: wrap;
+}
+.c-title{
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 2.5vw;
+    text-align: center;
+    color: black ;
+}
+.c-title:hover{
+    color:#0EB5F3 ;
+}
+.c-body{
+    width:60%;
+    padding-top: 10px;
+    margin: auto;
+}
+.c-left{
+    width: 60%;
+   min-height: 100vh;
+   
+}
+.c-right{
+    width: 40%;
+    min-height: 100vh;
+    background-color: black;
+}
+.c-button{
+    background-color: #F4D03F;
+    border: none;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.c-button:hover{
+    background-color: black;
+    color: white;
+}
+.lablelitem{
+    font-weight: 500;
+    font-size: 1vw;
+}
+.c-icons{
+    color: white;
+   margin: auto;
+   margin-top: 5%;
+}
+.info-icon{
+    font-size: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.info-data{
+    font-size: 16px;
+    padding: 4px 4px 4px 4px;
+}
+.info-icon:hover{
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.c-link{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+.c-link:hover{
+    color: rgb(66, 156, 235);
+    text-decoration: none;
+}
+.menu-div{
+    width: 50%;
+    margin: auto;
+    margin-top:30px;
+}
+.menu-list{
+    display: block;
+    text-decoration: none;
+}
+.list-items{
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+}
+.list-items:hover{
+    text-decoration: none;
+    color: #F4D03F;
+}
+
+.email-div{
+    padding:0;
+    margin-top: 15vh;
+    height: 30%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.email-container{
+    /* background-color:white; */
+    height: 400px;
+    width:350px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.envelop{
+    background-color: #F4D03F;
+    height: 150px;
+    width: 270px;
+    position: relative;
+    left: 40px;
+    top: 160px;
+}
+.paper{
+   background-color: white;
+   height: 150px;
+   width: 250px;
+   position: relative;
+   left: 10px; 
+}
+.inner1{
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #F4D03F ;
+    border-right: 270px solid transparent;
+    position: relative;
+    bottom: 150px;
+}
+.inner2{
+   width: 0;
+   height: 0; 
+   border-bottom: 150px solid #F7DC6F ;
+   border-left: 270px solid transparent;
+}
+.cover{
+    width: 0;
+    height: 0;
+    border-top: 75px solid #F1C40F;
+    border-right: 135px solid transparent;
+    border-left: 135px solid transparent;
+    position: relative;
+    bottom: 300px;
+    transform-origin: top;
+}
+.envelop:hover .cover{
+    transform: rotateX(180deg);
+    z-index: -1;
+}
+.envelop:hover .paper{
+    transform: translateY(-50px);
+}
+.paper-p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+   padding-top: 10px;
+}
+.p-cdetails{
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+}
+@media screen and (max-width:480px){
+    .mycontact{
+        height: auto;
+        width: 100%;
+       
+    }
+    .c-left{
+        width: 100%;
+        min-height:50vh !important;
+    }
+    .c-title{
+        margin-top: 50px;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        color: black ;
+    }
+    .c-body{
+        width:90%;
+        padding-top: 10px;
+        margin: auto;
+    }
+    .c-button{
+    background-color: #F4D03F;
+    border: none;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+        margin-top: 5px;
+        width:100%;
+    }
+    .c-button:hover{
+        background-color:black;
+        color:white;
+    }
+    .c-right{
+        width: 100%;
+        min-height:50vh !important;
+    }
+    .g-map{
+       display: none;
+    }
+    .c-icons{
+        color: white;
+       margin: auto;
+       margin-top: 10% !important;
+       margin-bottom: 10%;
+    }
+    .info-icon{
+        font-size: 24px!important;
+        padding: 4px 4px 4px 4px;
+    }
+   
+    .menu-div{
+        width: 100% !important;
+        margin: auto;
+        margin-top:30px;
+       
+       
+    }
+    .list-items{
+        font-size: 13px !important;
+    }
+    .lablelitem{
+        font-size: 15px;
+    }
+    .email-div{
+        display: none;
+    }
+    }
+    
+     /* /////////////for medium devices ///////// */
+    
+     @media screen and (max-width:1007px){
+        .mycontact{
+            /* flex-direction: column; */
+            height: auto ;
+            width: 100%;
+          }
+         
+        .c-left{
+            width: 100%;
+            height: auto ;
+        }
+        .c-title{
+            margin-top: 50px;
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+            color: black ;
+        }
+        .c-body{
+            width:80%;
+            padding-top: 10px;
+            margin: auto;
+        }
+        .c-button{
+            background-color: #F4D03F;
+        border: none;
+        color: black;
+        padding: 10px;
+        border-radius: 5px;
+            margin-top: 5px;
+            width:100%;
+        }
+        .c-button:hover{
+            background-color:black;
+            color:white;
+        }
+        .c-right{
+            width: 100%;
+            height: auto;
+        }
+        .lablelitem{
+            font-size: 15px;
+        }
+        .c-icons{
+            color: white;
+           margin: auto;
+           margin-top: 10% !important;
+           margin-bottom: 5%;
+        }
+        .info-icon{
+            font-size: 20px;
+            padding: 4px 4px 4px 4px;
+        }
+       
+        .menu-div{
+            width: 40%;
+            margin: auto;
+            margin-top:30px;
+           
+        }
+        .email-div{
+            display: none;
+        }
+     }

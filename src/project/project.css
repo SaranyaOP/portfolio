@@ -1,0 +1,391 @@
+.myproject{
+    width: 100%;
+    /* margin: auto; */
+    min-height: 100vh;
+    background-color:#F4D03F ;
+   
+}
+.p-tittle{
+    padding-top: 11vh;
+    font-weight: bold;
+    font-size: 2.5vw;
+    text-align: center;
+    color: black ;
+    
+}
+.p-tittle:hover{
+    color:#0EB5F3 ;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap; 
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.p-card{
+    width: 25%;
+    margin: 1%;
+   height: 41vh;
+    background-color: #f8e9ac;
+    border-radius: 5px;
+    cursor:pointer;
+    background-size: cover;
+  position: relative;
+  transition: all 0.2s ease;
+  
+}
+.p-card:hover{
+    transform: scale(.5.5);
+    background-color:#273746  ;
+  
+}
+.p-card:hover .card-content{
+    display: none;
+}
+.p-card:hover .image-section{
+    display: none;
+}
+.p-card:hover .hover-div{
+    display:block;
+}
+.card-content{
+    padding: 10% !important;
+    height: 30vh !important;
+   
+}
+.hover-div{
+    width: 40%;
+    margin: auto;
+    /* transition:all 0.5s ease; */
+    padding: 8px ;
+    background-color: #273746;
+    border: none;
+    display: none;
+    min-height: 10vh;
+    margin-top: 10vh;
+    margin-bottom: 12.5vh;
+    color: bisque;
+    text-align: center;
+}
+.hover-p{
+    font-size: 19px;
+}
+.hover-icon{
+    font-size: 30px;
+    margin: 5px;
+    transition:all 0.3s ease-in;
+    color: bisque !important;
+}
+.hover-icon:hover{
+    transform: scale(1.1);
+}
+.card-title{
+    font-weight: bolder;
+    font-size: 1.2vw;
+    margin-top: 1%;
+   
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+   /* font-family: 'Courier New', Courier, monospace; */
+   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+.card-desc{
+    height:22vh !important;
+}
+.card-para{
+    font-size:1vw;
+ 
+  
+    
+}
+.p-icon{
+    font-size: 3vw;
+    padding-left: 40px;
+    padding-top: 20px;
+    
+}
+.image-section{
+   height: 7vh!important;
+}
+.tec-stack{
+    text-align: center;
+    height: 14vh !important;
+}
+.stcak-item{
+    /* font-family:'Courier New', Courier, monospace;   */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2%;
+    font-weight: 700;
+    font-size: 1vw;
+    
+}
+.show-more{
+    width: 100%;
+    text-align: center;
+    padding-top: 10vh;
+   padding-bottom: 10vh;
+    min-height: 10vh;
+}
+.btn-show-more{
+    padding: 15px;
+    border: none;
+    background-color: #0c0c0c;
+    border-radius: 5px;
+    color: white;
+}
+.btn-show-more:hover{
+    background-color: #273746;
+}
+.p-link{
+    text-decoration: none;
+}
+.showmore-para{
+    padding-top: 30px;
+}
+/* .hover-content{
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(31, 31, 31, 0.85);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s ease;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    opacity:0;
+    position:absolute;
+    margin: auto;
+   
+  
+   
+} */
+/* .view-button{
+    transition:all 0.5s ease;
+    padding: 8px ;
+    background-color: #273746;
+    border-radius:5px;
+    border: none;
+    display: none;
+    height: 5vh;
+    width: 100%;
+    margin-top: 12.5vh;
+    margin-bottom: 12.5vh;
+    color: bisque;
+
+} */
+
+
+
+
+/* //////////////////////////////Animation //////////////////////////*/
+.card-container.animateMe{
+    opacity: 0;
+    
+  }
+   
+  .card-container.animateMe .animated{
+      opacity: 1;
+  }
+
+/*/////////////////////for small devices */
+  @media screen and (max-width:480px){
+   .myproject{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+
+   }
+   .p-tittle{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: black ;
+    
+}
+.p-tittle:hover{
+    color:#0EB5F3 ;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap; 
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.p-card{
+    width: 100% !important;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  min-height: 25vh !important;
+    background-color: #f8e9ac;
+    border-radius: 5px;
+    cursor:pointer;
+    background-size: cover;
+  position: relative;
+  
+}
+.image-section{
+    min-height: 2vh!important;
+ }
+ .tec-stack{
+    text-align: center;
+    height: auto ;
+}
+ .stcak-item{
+    /* font-family:'Courier New', Courier, monospace;   */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2%;
+    font-weight: 700;
+    font-size: 13px !important;
+ }
+ .card-para{
+    font-size:15px !important; 
+    
+}
+.card-desc{
+   height:20vh!important;
+}
+.card-title{
+    font-weight: 900;
+    font-size: 19px;
+    margin-top: 1vh;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+   /* font-family: 'Courier New', Courier, monospace; */
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p-icon{
+    font-size: 36px;
+    padding-left: 40px;
+    padding-top: 20px;
+    
+}
+
+.tec-stack{
+    text-align: center;
+    min-height: 2vh;
+}
+.stcak-item{
+    /* font-family:'Courier New', Courier, monospace;   */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 15px;
+    font-weight: 700;
+}
+.p-card:hover{
+    transform: none;
+}
+.show-more{
+    width: 100%;
+    text-align: center;
+    padding-top: 3vh;
+   padding-bottom: 1vh;
+    min-height: 10vh;
+}
+    }
+
+
+
+
+
+/*/////////////////////for medium devices */
+@media screen and (max-width:1007px){
+    .myproject{
+     width: 100%;
+     height: auto;
+     padding-bottom: 30px;
+ 
+    }
+    .p-tittle{
+     padding-top: 50px;
+     font-weight: bold;
+     font-size: 30px;
+     text-align: center;
+     color: black ;
+     
+ }
+ .p-tittle:hover{
+     color:#0EB5F3 ;
+ }
+ .card-container{
+     display: flex;
+     flex-wrap: wrap; 
+     width: 80%;
+     margin: auto;
+     align-items: center;
+     justify-content: center;
+ }
+ .p-card{
+     width: 80%;
+     margin-top: 3%;
+     margin-bottom: 3%;
+   min-height:50vh !important;
+     background-color: #f8e9ac;
+     border-radius: 5px;
+     cursor:pointer;
+     background-size: cover;
+   position: relative;
+   
+ }
+ 
+ .card-title{
+     font-weight: 900;
+     font-size: 19px;
+     margin-top: 10px;
+     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+     /* font-family: Georgia, 'Times New Roman', Times, serif; */
+     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ 
+ .p-icon{
+     font-size: 36px;
+     padding-left: 40px;
+     padding-top: 20px;
+     
+ }
+ .card-para{
+    font-size: 14px;
+  
+   
+}
+ .image-section{
+   min-height: 1vh !important;
+   padding-top: 2% !important;
+
+ }
+ .tec-stack{
+     text-align: center;
+    min-height: 4vh !important;
+   
+ }
+ .card-desc{
+   height:auto !important;
+   margin-top: 1%!important;
+}
+ .stcak-item{
+     /* font-family:'Courier New', Courier, monospace;   */
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-right:2% ;
+     font-weight: 700;
+     font-size: 13px !important;
+ }
+ .p-card:hover{
+     transform: none;
+ }
+     }
+ 
+ 
+ 
+ 
+ 
+ 

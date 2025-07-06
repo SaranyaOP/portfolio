@@ -1,0 +1,78 @@
+.myproject{
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+   
+}
+.p-tittle{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    color: black ;
+}
+.p-tittle:hover{
+    color:#0EB5F3 ;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.mycard{
+    width:35%;
+    height: 40vh;
+    padding: 10px;
+   
+}
+.box111{
+    background:white;
+    text-align:center;
+    position:relative; 
+    width: 100%; 
+    height: 32vh;
+    /* border: 1px solid rgb(233, 228, 228); */
+}
+.pic-1{
+    width:100%;
+    height:28vh;
+    margin: 0;padding: 0;
+   
+}
+.box:hover img11{
+   opacity: 0.5;
+}
+.box .box-content{
+    padding: 0;
+    /* background: linear-gradient(red, yellow, blue) no-repeat; */
+    background-size: 0%;
+    transition: .4s;
+    background:rgba(0,0,0,.65);
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    opacity:0;
+}
+.box:hover .box-content{
+    top:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+    opacity:1;
+    background-size: 80%;
+  transition: .7s;
+}
+.box .title{font-weight:300;color:#fff;line-height:17px;margin:5px 0;position:absolute;bottom:55%}
+.box .icon li a,.box .icon li a{line-height:35px;border-radius:50%}
+.box .icon{list-style:none;padding:0;margin:0;position:absolute;top:50%}
+.box .icon li{display:inline-block;opacity:0;transform:translateY(40px)}
+.box:hover .icon li{opacity:1;transform:translateY(0)}
+.box:hover .icon li:first-child{transition-delay:.1s}
+.box:hover .icon li:nth-child(2){transition-delay:.2s}
+.box .icon li a{display:block;width:35px;height:35px;background:#f39c12;font-size:20px;color:#000;margin-right:5px;transition:all .35s ease 0s}
+.box .icon a:hover{background:#fff}
+@media only screen and (max-width:990px){.box{margin-bottom:20px}
+}
