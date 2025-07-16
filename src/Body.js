@@ -21,7 +21,7 @@ function Body() {
       <Skills/>
       <Project/>
       {/* <Resumee/> */}
-      <Contact/>
+      {/* <Contact/> */}
     </>
   )
  

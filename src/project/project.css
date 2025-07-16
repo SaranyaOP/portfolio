@@ -196,7 +196,7 @@
   @media screen and (max-width:480px){
    .myproject{
     width: 100%;
-    height: auto;
+    min-height: 100vh;
     padding-bottom: 30px;
 
    }
@@ -300,7 +300,7 @@
 @media screen and (max-width:1007px){
     .myproject{
      width: 100%;
-     height: auto;
+     min-height: 100vh;
      padding-bottom: 30px;
  
     }

@@ -1,7 +1,7 @@
 import './about.css'
 import metwo from "../images/metwo.png";
 import bg from "../images/a-bg.png";
-import Saranya_resume from "../images/SaranyaOP.pdf";
+import Saranya_resume from "../images/Saranya.pdf";
 const About = () =>{
     function handleDownload() {
         window.open(Saranya_resume);
@@ -24,7 +24,7 @@ const About = () =>{
                     <div className='a-content'>
                        <div className='myparagraph'>
                        <p className='animateMe' data-animation="fadeInUpBig">
-                       I am a dedicated Front-End Developer with 1.8 years of experience, currently contributing my skills at LG Soft.
+                       I am a dedicated Front-End Developer with 2 years of experience, currently contributing my skills at LG Soft.
                         My journey in web development has fueled my passion for creating dynamic, user-friendly applications that enhance the online experience.
                         </p>
                         <p className='animateMe' data-animation="fadeInUpBig">
