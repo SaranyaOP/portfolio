@@ -1,7 +1,6 @@
 
 // import { Row, Col } from "reactstrap";
 import { PDFDownloadLink, PDFViewer } from '@react-pdf/renderer';
-import Saranya_resume from "./images/SaranyaOP.pdf";
 const Header = () =>{
   const windowRefresh = () =>{
     window.location.reload();
