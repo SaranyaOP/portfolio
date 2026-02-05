@@ -1,7 +1,7 @@
 import './contact.css'
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import Saranya_resume from "../images/SaranyaOP.pdf";
+import Saranya_resume from "../images/Saranya.OP-Resume-2026.pdf";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const Contact = () => {
