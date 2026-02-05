@@ -25,7 +25,7 @@ const Skills = () => {
                                 <li className='skill-item'>CSS</li>
                                 <li className='skill-item'>JavaScript</li>
                                 <li className='skill-item'>REST API</li>
-
+                                <li className='skill-item'>TypeScript</li>
                                 <li className='skill-item'>Cross-browser Compatibility</li>
 
                             </ul>
@@ -34,11 +34,12 @@ const Skills = () => {
                             <h4 className='skillCard-title '>Frontend Frameworks & Libraries</h4>
                             <ul className='skill-list'>
                                 <li className='skill-item'>React.js</li>
+                                <li className='skill-item'>Next.js</li>
                                 <li className='skill-item'>Redux</li>
                                 <li className='skill-item'>Recoil.js</li>
-                                <li className='skill-item'>React Native</li>
                                 <li className='skill-item'>Bootstrap</li>
                                 <li className='skill-item'>Tailwind CSS</li>
+                                <li className='skill-item'>Material UI</li>
 
                             </ul>
                         </div>

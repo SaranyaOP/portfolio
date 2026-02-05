@@ -9,11 +9,11 @@
     flex-wrap: wrap;
 }
 .left{
-    width:50%;
+    width:40%;
     height: 100vh;
 }
 .right{
-    width:50%;
+    width:60%;
     padding: 10px;
     /* background-image: url("../images/1810.jpg");
     background-size: cover;
@@ -23,12 +23,13 @@
    
    width:70%;
    margin:auto;
+   justify-content: center;
 }
 
 .a-img{
     height:100%;
     width:100%;
-    margin-top: 100px;
+    margin-top: 50%;
     transition:all 0.2s ease;
 }
 .a-img:hover{
@@ -67,6 +68,12 @@
 
   .myabout p{
     font-size:1vw;
+}
+.about-subtittle{
+    font-weight: bold;
+    font-size: 1.2vw;
+    margin-top: 20px;
+    margin-bottom: 10px;  
 }
   /* ////////////////// ----------Animation----------///////////////// */
   

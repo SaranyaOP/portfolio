@@ -24,13 +24,13 @@ const Header = () =>{
       <li class="nav-item">
         <a class="nav-link" href="#skills">Skills</a>
       </li>
-      {/* <li class="nav-item">
+       <li class="nav-item">
         <a class="nav-link" href="#project">Projects</a>
       </li>
       
-      <li class="nav-item">
+      {/* <li class="nav-item">
         <a class="nav-link" href="#contact">Contact Me</a>
-      </li> */}
+      </li>  */}
    
       {/* <li class="nav-item">
       <a

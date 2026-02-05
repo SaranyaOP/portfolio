@@ -77,21 +77,22 @@ const Project = () => {
                         <div className='hover-div'>
                             <p className='hover-p'>View project</p>
 
-                            <a href='' target="_blank">
+                            <a href='https://chat-app-df093.web.app/' target="_blank">
                                 <i className="fa fa-external-link hover-icon" aria-hidden="true"></i></a>
-                            <a href='' target="_blank">
+                            <a href='https://github.com/SaranyaOP/chat-app' target="_blank">
                                 <i className="fa fa-github hover-icon" aria-hidden="true"></i></a>
                         </div>
                         <div className='card-content'>
                             <div className='card-desc'>
-                                <h5 className='card-title'>Dashboard</h5>
+                                <h5 className='card-title'>ChatApp</h5>
                                 <p className='card-para'>
-                                    It's simple dashboard for displaying various metrics using react functional components and bootstrap
+                                  A lightweight real-time one-to-one chat application built with React, Tailwind CSS and Firebase.
                                 </p>
                             </div>
                             <div className='tec-stack'>
                                 <span className='stcak-item'>React</span>
-                                <span className='stcak-item'>Bootstrap</span>
+                                <span className='stcak-item'>Tailwind CSS</span>
+                                <span className='stcak-item'>Firebase</span>
 
                             </div>
                         </div>
